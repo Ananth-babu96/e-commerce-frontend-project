@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/e-commerce-frontend-project/static/css/main.1b991c3e.css",
+    "main.js": "/e-commerce-frontend-project/static/js/main.6fe23d74.js",
+    "static/media/elite-men-logo.png": "/e-commerce-frontend-project/static/media/elite-men-logo.18a9d468a8e8a428f9f4.png",
+    "index.html": "/e-commerce-frontend-project/index.html",
+    "main.1b991c3e.css.map": "/e-commerce-frontend-project/static/css/main.1b991c3e.css.map",
+    "main.6fe23d74.js.map": "/e-commerce-frontend-project/static/js/main.6fe23d74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b991c3e.css",
+    "static/js/main.6fe23d74.js"
+  ]
+}
