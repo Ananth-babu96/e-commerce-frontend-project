@@ -1,0 +1,50 @@
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+.showcase {
+   display: grid;
+   grid-template-columns: repeat(4, 280px);
+   grid-auto-rows: 400px;
+   justify-content: center;
+   gap: 16px;
+   margin: 32px;
+
+   @include breakPointsMax(xl) {
+      grid-template-columns: repeat(4, 22.5%);
+      grid-auto-rows: 30vw;
+   }
+   @include breakPointsMax(medium) {
+      grid-template-columns: repeat(2, 45%);
+      grid-auto-rows: 50vw;
+      margin: 32px;
+   }
+   @include breakPointsMax(small) {
+      grid-template-columns: repeat(2, 50%);
+      grid-auto-rows: 55vw;
+      margin: 32px 16px;
+   }
+   .showcase__product {
+      height: 100%;
+      width: 100%;
+      background: grey;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .showcase__image {
+         height: 60%;
+         width: 60%;
+         overflow: hidden;
+
+         img {
+            height: 100%;
+         }
+      }
+      .showcase__info {
+         text-align: center;
+
+         @include breakPointsMax(medium) {
+            font-size: 14px;
+         }
+      }
+   }
+}

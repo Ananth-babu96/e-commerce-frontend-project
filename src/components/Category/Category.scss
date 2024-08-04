@@ -1,0 +1,38 @@
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+
+.categories-container {
+   width: 100vw;
+   overflow: scroll;
+   scrollbar-width: none;
+   .categories {
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+      gap: 64px;
+      font-size: 16px;
+      width: auto;
+      margin: 0 auto;
+
+      @include breakPointsMax(medium) {
+         padding: 16px;
+         font-size: 12px;
+         width: 690px;
+         justify-content: space-between;
+         padding: 0 12px;
+      }
+
+      a::after {
+         content: "";
+         display: block;
+         height: 2px;
+         width: 0;
+         background: #000;
+         margin-top: 6px;
+         transition: width 0.2s ease-in-out;
+      }
+      a:hover::after {
+         width: 100%;
+      }
+   }
+}

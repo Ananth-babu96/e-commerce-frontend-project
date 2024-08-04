@@ -1,0 +1,581 @@
+[
+   {
+      "id": 1,
+      "category": "formal-shirts",
+      "brand": "Voroxy",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal1.webp",
+         "side": [
+            "assets/images/formal1-side1.webp",
+            "assets/images/formal1-side2.webp",
+            "assets/images/formal1-side3.webp"
+         ]
+      },
+      "oldPrice": 2199,
+      "newPrice": 299,
+      "off": 89,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "White",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.1"
+   },
+   {
+      "id": 2,
+      "category": "formal-shirts",
+      "brand": "Stonberg",
+      "name": "Men Slim Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal2.webp",
+         "side": [
+            "assets/images/formal2-side1.webp",
+            "assets/images/formal2-side2.webp",
+            "assets/images/formal2-side3.webp"
+         ]
+      },
+      "oldPrice": 1599,
+      "newPrice": 379,
+      "off": 76,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Slim",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Pink",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "3.9"
+   },
+   {
+      "id": 3,
+      "category": "formal-shirts",
+      "brand": "Davem",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal3.webp",
+         "side": [
+            "assets/images/formal3-side1.webp",
+            "assets/images/formal3-side2.webp",
+            "assets/images/formal3-side3.webp"
+         ]
+      },
+      "oldPrice": 1399,
+      "newPrice": 499,
+      "off": 64,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "White",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.2"
+   },
+   {
+      "id": 4,
+      "category": "formal-shirts",
+      "brand": "Park Avenue",
+      "name": "Men Slim Fit Striped  Formal Shirt",
+      "images": {
+         "main": "assets/images/formal4.webp",
+         "side": [
+            "assets/images/formal4-side1.webp",
+            "assets/images/formal4-side2.webp",
+            "assets/images/formal4-side3.webp"
+         ]
+      },
+      "oldPrice": "",
+      "newPrice": "",
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Striped",
+         "Reversable": "No",
+         "Color": "Blue",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.5"
+   },
+   {
+      "id": 5,
+      "category": "formal-shirts",
+      "brand": "Valveera",
+      "name": "Men Slim Fit Solid Mandarian Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal5.webp",
+         "side": [
+            "assets/images/formal5-side1.webp",
+            "assets/images/formal5-side2.webp",
+            "assets/images/formal5-side3.webp"
+         ]
+      },
+      "oldPrice": 1999,
+      "newPrice": 379,
+      "off": 81,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "White",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.1"
+   },
+   {
+      "id": 6,
+      "category": "formal-shirts",
+      "brand": "Peter England",
+      "name": "Men Slim Fit Solid Formal Shirt",
+      "images": {
+         "main": "assets/images/formal6.webp",
+         "side": [
+            "assets/images/formal6-side1.webp",
+            "assets/images/formal6-side2.webp",
+            "assets/images/formal6-side3.webp"
+         ]
+      },
+      "oldPrice": 1599,
+      "newPrice": 799,
+      "off": 50,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Grey",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.7"
+   },
+   {
+      "id": 7,
+      "category": "formal-shirts",
+      "brand": "Refresh",
+      "name": "Men Slim Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal7.webp",
+         "side": [
+            "assets/images/formal7-side1.webp",
+            "assets/images/formal7-side2.webp",
+            "assets/images/formal7-side3.webp"
+         ]
+      },
+      "oldPrice": 1499,
+      "newPrice": 399,
+      "off": 73,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Maroon",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4"
+   },
+   {
+      "id": 8,
+      "category": "formal-shirts",
+      "brand": "Solstice",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal8.webp",
+         "side": [
+            "assets/images/formal8-side.webp",
+            "assets/images/formal8-side2.webp",
+            "assets/images/formal8-side3.webp"
+         ]
+      },
+      "oldPrice": 999,
+      "newPrice": 379,
+      "off": 62,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Polyester",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Dark Green",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "3.5"
+   },
+   {
+      "id": 9,
+      "category": "formal-shirts",
+      "brand": "Voroxy",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal9.webp",
+         "side": [
+            "assets/images/formal9-side1.webp",
+            "assets/images/formal9-side2.webp",
+            "assets/images/formal9-side3.webp"
+         ]
+      },
+      "oldPrice": 2199,
+      "newPrice": 299,
+      "off": 86,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "White",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.1"
+   },
+   {
+      "id": 10,
+      "category": "formal-shirts",
+      "brand": "Nofilter",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal10.webp",
+         "side": [
+            "assets/images/formal10-side1.webp",
+            "assets/images/formal10-side2.webp",
+            "assets/images/formal10-side3.webp"
+         ]
+      },
+      "oldPrice": 1399,
+      "newPrice": 299,
+      "off": 78,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Dark Blue",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.5"
+   },
+   {
+      "id": 11,
+      "category": "formal-shirts",
+      "brand": "Almora",
+      "name": "Men Slim Fit Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal11.webp",
+         "side": [
+            "assets/images/formal11-side1.webp",
+            "assets/images/formal11-side2.webp",
+            "assets/images/formal11-side3.webp"
+         ]
+      },
+      "oldPrice": 1689,
+      "newPrice": 345,
+      "off": 79,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Poly Cotton",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Blue",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.3"
+   },
+   {
+      "id": 12,
+      "category": "formal-shirts",
+      "brand": "Nofilter",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal12.webp",
+         "side": [
+            "assets/images/formal12-side1.webp",
+            "assets/images/formal12-side2.webp",
+            "assets/images/formal12-side3.webp"
+         ]
+      },
+      "oldPrice": 1399,
+      "newPrice": 299,
+      "off": 78,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Black",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.1"
+   },
+   {
+      "id": 13,
+      "category": "formal-shirts",
+      "brand": "Peter England",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal13.webp",
+         "side": [
+            "assets/images/formal13-side1.webp",
+            "assets/images/formal13-side2.webp",
+            "assets/images/formal13-side3.webp"
+         ]
+      },
+      "oldPrice": 1799,
+      "newPrice": 935,
+      "off": 48,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Pure Cotton",
+         "Sleeve": "Half Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "White",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "3.7"
+   },
+   {
+      "id": 14,
+      "category": "formal-shirts",
+      "brand": "Stoneberg",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal14.webp",
+         "side": [
+            "assets/images/formal14-side1.webp",
+            "assets/images/formal14-side2.webp",
+            "assets/images/formal14-side3.webp"
+         ]
+      },
+      "oldPrice": 1599,
+      "newPrice": 379,
+      "off": 76,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Pink",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4"
+   },
+   {
+      "id": 15,
+      "category": "formal-shirts",
+      "brand": "Peter England",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal15.webp",
+         "side": [
+            "assets/images/formal15-side1.webp",
+            "assets/images/formal15-side2.webp",
+            "assets/images/formal15-side3.webp"
+         ]
+      },
+      "oldPrice": 1599,
+      "newPrice": 799,
+      "off": 50,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Pure Cotton",
+         "Sleeve": "Half Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Orange",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "3.6"
+   },
+   {
+      "id": 16,
+      "category": "formal-shirts",
+      "brand": "Lonexo",
+      "name": "Men Regular Fit Solid Mandarian Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal16.webp",
+         "side": [
+            "assets/images/formal16-side1.webp",
+            "assets/images/formal16-side2.webp",
+            "assets/images/formal16-side3.webp"
+         ]
+      },
+      "oldPrice": 1499,
+      "newPrice": 359,
+      "off": 76,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Polyester",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Grey",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.2"
+   },
+   {
+      "id": 17,
+      "category": "formal-shirts",
+      "brand": "Mildin",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal17.webp",
+         "side": [
+            "assets/images/formal17-side1.webp",
+            "assets/images/formal17-side2.webp",
+            "assets/images/formal17-side3.webp"
+         ]
+      },
+      "oldPrice": 1999,
+      "newPrice": 349,
+      "off": 82,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Half Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Green",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "3.1"
+   },
+   {
+      "id": 18,
+      "category": "formal-shirts",
+      "brand": "Appel Touch",
+      "name": "Men Regular Fit Solid Spread Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal18.webp",
+         "side": [
+            "assets/images/formal18-side1.webp",
+            "assets/images/formal18-side2.webp",
+            "assets/images/formal18-side3.webp"
+         ]
+      },
+      "oldPrice": 1649,
+      "newPrice": 495,
+      "off": 69,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Drak Grey",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.5"
+   },
+   {
+      "id": 19,
+      "category": "formal-shirts",
+      "brand": "Deshbandhu Khadi",
+      "name": "Men Regular Fit Solid Button Down Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal19.webp",
+         "side": [
+            "assets/images/formal19-side1.webp",
+            "assets/images/formal19-side2.webp",
+            "assets/images/formal19-side3.webp"
+         ]
+      },
+      "oldPrice": 899,
+      "newPrice": 369,
+      "off": 58,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Regular",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Half Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Pink",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "2.1"
+   },
+   {
+      "id": 20,
+      "category": "formal-shirts",
+      "brand": "Nivick",
+      "name": "Men Slim Fit Solid Mandarian Collar Formal Shirt",
+      "images": {
+         "main": "assets/images/formal20.webp",
+         "side": [
+            "assets/images/formal20-side1.webp",
+            "assets/images/formal20-side2.webp",
+            "assets/images/formal20-side3.webp"
+         ]
+      },
+      "oldPrice": 1499,
+      "newPrice": 389,
+      "off": 74,
+      "details": {
+         "Pack Of": 1,
+         "Closure": "Button",
+         "Fit": "Slim",
+         "Fabric": "Cotton Blend",
+         "Sleeve": "Full Sleeve",
+         "Pattern": "Solid",
+         "Reversable": "No",
+         "Color": "Green",
+         "Suitable for": "Western Wear"
+      },
+      "ratings": "4.1"
+   }
+]
