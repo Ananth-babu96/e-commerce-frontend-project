@@ -1,49 +1,108 @@
 @use "../../scss/breakPoints/breakPoints.scss" as *;
-.showcase {
-   display: grid;
-   grid-template-columns: repeat(4, 280px);
-   grid-auto-rows: 400px;
-   justify-content: center;
-   gap: 16px;
-   margin: 32px;
+@use "../../scss/colors/colors.scss" as *;
 
-   @include breakPointsMax(xl) {
-      grid-template-columns: repeat(4, 22.5%);
-      grid-auto-rows: 30vw;
+.wrapper {
+   padding: 0 16px;
+   position: relative;
+   margin-bottom: 100px;
+
+   .products-display__title {
+      margin: 16px 0;
+      text-align: center;
+      @include breakPointsMax(small) {
+         font-size: 14px;
+      }
    }
-   @include breakPointsMax(medium) {
-      grid-template-columns: repeat(2, 45%);
-      grid-auto-rows: 50vw;
-      margin: 32px;
-   }
-   @include breakPointsMax(small) {
-      grid-template-columns: repeat(2, 50%);
-      grid-auto-rows: 55vw;
-      margin: 32px 16px;
-   }
-   .showcase__product {
-      height: 100%;
-      width: 100%;
-      background: grey;
+   .left-right-arrows {
+      position: absolute;
+      top: 50%;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
+      font-size: 32px;
+      cursor: pointer;
+      &.right-icon {
+         right: 16px;
+      }
+   }
+   width: 100vw;
+   .products-display {
+      overflow: scroll;
+      scrollbar-width: none;
 
-      .showcase__image {
-         height: 60%;
-         width: 60%;
-         overflow: hidden;
+      .products-display__cards {
+         display: grid;
+         justify-content: center;
+         grid-template-columns: repeat(6, 260px);
+         grid-auto-rows: 365px;
+         gap: 16px;
 
-         img {
+         @include breakPointsMax(xxl) {
+            justify-content: start;
+         }
+         @include breakPointsMax(medium) {
+            grid-template-columns: repeat(6, 200px);
+            grid-auto-rows: 281px;
+            gap: 8px;
+         }
+         @include breakPointsMax(small) {
+            grid-template-columns: repeat(6, 135px);
+            grid-auto-rows: 220px;
+         }
+
+         .products-display__card {
             height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            border: 1px solid $lightGrey;
+            cursor: pointer;
+
+            &:hover {
+               border-color: $darkGrey;
+            }
+
+            .card__image {
+               height: 70%;
+               width: 80%;
+               background: grey;
+               @include breakPointsMax(small) {
+                  width: 100%;
+                  height: 80%;
+               }
+               img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+               }
+            }
+            .card__text {
+               text-align: center;
+               .off {
+                  color: rgb(17, 192, 17);
+               }
+            }
          }
       }
-      .showcase__info {
-         text-align: center;
+   }
+   .products-display__btn {
+      display: flex;
+      justify-content: center;
+      margin: 32px 0;
 
-         @include breakPointsMax(medium) {
-            font-size: 14px;
+      button {
+         height: 32px;
+         width: 96px;
+         background: transparent;
+         outline: none;
+         border: 1px solid #000;
+         text-transform: uppercase;
+         cursor: pointer;
+         font-weight: bold;
+
+         &:hover {
+            background-color: #000;
+            color: #fff;
          }
       }
    }

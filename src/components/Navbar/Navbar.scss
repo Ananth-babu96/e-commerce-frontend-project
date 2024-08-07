@@ -1,6 +1,7 @@
 @use "../../scss/breakPoints/breakPoints.scss" as *;
+@use "../../scss/colors/colors.scss" as *;
 .navbar {
-   background: grey;
+   background: $lightGrey;
    width: 100%;
    padding: 15px 25px;
    display: grid;
@@ -9,6 +10,7 @@
    row-gap: 12px;
    position: fixed;
    top: 0;
+   z-index: 9;
 
    @include breakPointsMax(medium) {
       grid-template-columns: repeat(2, auto);
@@ -39,6 +41,7 @@
          border: none;
          outline: none;
          padding-left: 12px;
+         padding-right: 32px;
 
          @include breakPointsMax(medium) {
             width: 100%;
@@ -57,7 +60,7 @@
       gap: 8px;
 
       a {
-         color: #fff;
+         color: #000;
          font-size: 1.2rem;
       }
    }
