@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/e-commerce-frontend-project/static/css/main.1872463c.css",
-    "main.js": "/e-commerce-frontend-project/static/js/main.5cbb14df.js",
+    "main.css": "/e-commerce-frontend-project/static/css/main.f3797ce9.css",
+    "main.js": "/e-commerce-frontend-project/static/js/main.17be872b.js",
     "static/media/casual3-side3.webp": "/e-commerce-frontend-project/static/media/casual3-side3.a6db0e64e3e05fbddcf0.webp",
     "static/media/casual13-side3.webp": "/e-commerce-frontend-project/static/media/casual13-side3.d5b864d6c0b8e5a29a53.webp",
     "static/media/casual10-side3.webp": "/e-commerce-frontend-project/static/media/casual10-side3.cc3eb362f70407c7875b.webp",
@@ -180,11 +180,11 @@
     "static/media/formal5-side3.webp": "/e-commerce-frontend-project/static/media/formal5-side3.b324db1dde6311b15442.webp",
     "static/media/formal13-side2.webp": "/e-commerce-frontend-project/static/media/formal13-side2.966be7d7d796adf98560.webp",
     "index.html": "/e-commerce-frontend-project/index.html",
-    "main.1872463c.css.map": "/e-commerce-frontend-project/static/css/main.1872463c.css.map",
-    "main.5cbb14df.js.map": "/e-commerce-frontend-project/static/js/main.5cbb14df.js.map"
+    "main.f3797ce9.css.map": "/e-commerce-frontend-project/static/css/main.f3797ce9.css.map",
+    "main.17be872b.js.map": "/e-commerce-frontend-project/static/js/main.17be872b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1872463c.css",
-    "static/js/main.5cbb14df.js"
+    "static/css/main.f3797ce9.css",
+    "static/js/main.17be872b.js"
   ]
 }
