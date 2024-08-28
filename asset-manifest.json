@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/e-commerce-frontend-project/static/css/main.8c8a0b43.css",
-    "main.js": "/e-commerce-frontend-project/static/js/main.acbaf6db.js",
+    "main.css": "/e-commerce-frontend-project/static/css/main.a68db4f1.css",
+    "main.js": "/e-commerce-frontend-project/static/js/main.78348c44.js",
     "static/media/casual3-side3.webp": "/e-commerce-frontend-project/static/media/casual3-side3.a6db0e64e3e05fbddcf0.webp",
     "static/media/casual13-side3.webp": "/e-commerce-frontend-project/static/media/casual13-side3.d5b864d6c0b8e5a29a53.webp",
     "static/media/f-pant5-side3.webp": "/e-commerce-frontend-project/static/media/f-pant5-side3.b993ab7e75e1d8f513c7.webp",
@@ -277,11 +277,11 @@
     "static/media/google-pay-logo-2020.svg": "/e-commerce-frontend-project/static/media/google-pay-logo-2020.2092c31c44c63b643246d5aafcf8263b.svg",
     "index.html": "/e-commerce-frontend-project/index.html",
     "static/media/visa-10.svg": "/e-commerce-frontend-project/static/media/visa-10.a832f682ed43e496bcbeebb6f2aa31e1.svg",
-    "main.8c8a0b43.css.map": "/e-commerce-frontend-project/static/css/main.8c8a0b43.css.map",
-    "main.acbaf6db.js.map": "/e-commerce-frontend-project/static/js/main.acbaf6db.js.map"
+    "main.a68db4f1.css.map": "/e-commerce-frontend-project/static/css/main.a68db4f1.css.map",
+    "main.78348c44.js.map": "/e-commerce-frontend-project/static/js/main.78348c44.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c8a0b43.css",
-    "static/js/main.acbaf6db.js"
+    "static/css/main.a68db4f1.css",
+    "static/js/main.78348c44.js"
   ]
 }
