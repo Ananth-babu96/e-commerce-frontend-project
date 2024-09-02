@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/e-commerce-frontend-project/static/css/main.a74930fa.css",
-    "main.js": "/e-commerce-frontend-project/static/js/main.567946bd.js",
+    "main.css": "/e-commerce-frontend-project/static/css/main.cddd1a30.css",
+    "main.js": "/e-commerce-frontend-project/static/js/main.7d8e0561.js",
     "static/media/casual3-side3.webp": "/e-commerce-frontend-project/static/media/casual3-side3.a6db0e64e3e05fbddcf0.webp",
     "static/media/casual13-side3.webp": "/e-commerce-frontend-project/static/media/casual13-side3.d5b864d6c0b8e5a29a53.webp",
     "static/media/f-pant5-side3.webp": "/e-commerce-frontend-project/static/media/f-pant5-side3.b993ab7e75e1d8f513c7.webp",
@@ -266,6 +266,7 @@
     "static/media/casual2-side2.webp": "/e-commerce-frontend-project/static/media/casual2-side2.9042f6a24372f10a4262.webp",
     "static/media/c-pant3-side2.webp": "/e-commerce-frontend-project/static/media/c-pant3-side2.46ca7cdda1a999f44d98.webp",
     "static/media/casual2-side1.webp": "/e-commerce-frontend-project/static/media/casual2-side1.1de343de1379fecfe063.webp",
+    "static/media/undraw_empty_cart_co35.svg": "/e-commerce-frontend-project/static/media/undraw_empty_cart_co35.b5055e56282bba2de480b7282277f3f9.svg",
     "static/media/c-pant7-side3.webp": "/e-commerce-frontend-project/static/media/c-pant7-side3.0ccfbf13469bfe03878b.webp",
     "static/media/formal13-side3.webp": "/e-commerce-frontend-project/static/media/formal13-side3.ebc6f69d4dee3386b302.webp",
     "static/media/formal5-side3.webp": "/e-commerce-frontend-project/static/media/formal5-side3.b324db1dde6311b15442.webp",
@@ -277,11 +278,11 @@
     "static/media/google-pay-logo-2020.svg": "/e-commerce-frontend-project/static/media/google-pay-logo-2020.2092c31c44c63b643246d5aafcf8263b.svg",
     "index.html": "/e-commerce-frontend-project/index.html",
     "static/media/visa-10.svg": "/e-commerce-frontend-project/static/media/visa-10.a832f682ed43e496bcbeebb6f2aa31e1.svg",
-    "main.a74930fa.css.map": "/e-commerce-frontend-project/static/css/main.a74930fa.css.map",
-    "main.567946bd.js.map": "/e-commerce-frontend-project/static/js/main.567946bd.js.map"
+    "main.cddd1a30.css.map": "/e-commerce-frontend-project/static/css/main.cddd1a30.css.map",
+    "main.7d8e0561.js.map": "/e-commerce-frontend-project/static/js/main.7d8e0561.js.map"
   },
   "entrypoints": [
-    "static/css/main.a74930fa.css",
-    "static/js/main.567946bd.js"
+    "static/css/main.cddd1a30.css",
+    "static/js/main.7d8e0561.js"
   ]
 }
