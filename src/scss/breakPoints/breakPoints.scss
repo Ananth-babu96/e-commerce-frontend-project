@@ -3,7 +3,8 @@ $breakPoints: (
    "xl": "1200px",
    "large": "992px",
    "medium": "768px",
-   "small": "576px",
+   "small": "582px",
+   "xs": "250px",
 );
 
 @mixin breakPointsMax($size) {

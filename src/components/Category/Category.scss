@@ -4,10 +4,10 @@
    width: 100vw;
    overflow: scroll;
    scrollbar-width: none;
-   margin-bottom: 100px;
+   margin-bottom: 40px;
 
    @include breakPointsMax(medium) {
-      margin: 40px 0;
+      margin: 10px 0;
    }
    .categories {
       width: 650px;
@@ -20,6 +20,9 @@
 
       @include breakPointsMax(medium) {
          font-size: 14px;
+      }
+      a {
+         cursor: pointer;
       }
 
       a::after {

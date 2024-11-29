@@ -1,0 +1,220 @@
+@use "../../scss/colors/colors.scss" as *;
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+.cart-container {
+   display: grid;
+   grid-template-columns: 50% 25%;
+   gap: 16px;
+   justify-content: center;
+   margin: 16px;
+   position: relative;
+
+   @include breakPointsMax(large) {
+      grid-template-columns: 75%;
+   }
+   @include breakPointsMax(medium) {
+      grid-template-columns: 90%;
+   }
+   @include breakPointsMax(medium) {
+      grid-template-columns: 100%;
+   }
+
+   &__left {
+      &.empty-cart {
+         grid-column: 1/3;
+      }
+
+      .cart-products,
+      .no-products,
+      .saved-later-products {
+         background: #fff;
+         box-shadow: 0 0 7px 0.1px rgba(0, 0, 0, 0.2);
+         margin-bottom: 16px;
+
+         .title {
+            text-align: center;
+            padding: 16px 0;
+            border-bottom: 1px solid $light-color;
+         }
+         .cart-product {
+            height: 200px;
+            border-bottom: 1px solid $light-color;
+            padding: 16px;
+            display: grid;
+            align-items: center;
+            grid-template-columns: 30% 70%;
+            @include breakPointsMax(xs) {
+               height: fit-content;
+               grid-template-columns: 100%;
+            }
+            a {
+               justify-self: center;
+            }
+            img {
+               height: 100px;
+               width: 70px;
+               object-fit: cover;
+
+               @include breakPointsMax(small) {
+                  height: 70px;
+                  width: 40px;
+               }
+            }
+            .qty {
+               display: flex;
+               gap: 8px;
+               justify-self: center;
+               /* @include breakPointsMax(small) {
+                  grid-column: 1/3;
+               }*/
+
+               button {
+                  height: 32px;
+                  width: 32px;
+                  border: 1px solid $secondary_color;
+                  border-radius: 50%;
+                  color: $secondary_color;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 12px;
+
+                  @include breakPointsMax(medium) {
+                     height: 22px;
+                     width: 22px;
+                  }
+               }
+               .display-qty {
+                  border: 1px solid $mediumGrey;
+                  height: 32px;
+                  width: 42px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: $secondary_color;
+                  @include breakPointsMax(medium) {
+                     height: 22px;
+                     width: 32px;
+                  }
+               }
+            }
+         }
+         .product-text {
+            .brand-name {
+               font-weight: 700;
+               margin-right: 8px;
+            }
+            .product-name {
+               font-size: 14px;
+               color: #3a3a3a;
+            }
+            .old-price {
+               text-decoration: line-through;
+               color: $mediumGrey;
+            }
+
+            .off {
+               color: $positive;
+            }
+         }
+         .buttons {
+            display: flex;
+            gap: 32px;
+
+            @include breakPointsMax(small) {
+               gap: 18px;
+               grid-column: 1/3;
+               justify-content: center;
+            }
+            @include breakPointsMax(xs) {
+               grid-column: 1/2;
+               flex-direction: column;
+               margin: 16px 0;
+            }
+            button {
+               border: none;
+               outline: none;
+               cursor: pointer;
+               font-size: 18px;
+               font-weight: 600;
+
+               @include breakPointsMax(small) {
+                  font-size: 14px;
+               }
+            }
+         }
+      }
+      .cart-products {
+         .priceDetails {
+            display: none;
+
+            @include breakPointsMax(large) {
+               border-top: 1px solid $light-color;
+               border-bottom: 1px solid $light-color;
+               display: block;
+            }
+         }
+         .order-btn {
+            height: 80px;
+            display: flex;
+            background: #fff;
+            position: sticky;
+            bottom: 0;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 16px;
+            box-shadow: 0 0 7px 0.1px rgba(0, 0, 0, 0.2);
+            @include breakPointsMax(large) {
+               justify-content: space-between;
+            }
+            @include breakPointsMax(small) {
+               height: 60px;
+            }
+            @include breakPointsMax(xs) {
+               flex-direction: column;
+               height: 80px;
+            }
+            p {
+               font-weight: 700;
+               display: none;
+
+               @include breakPointsMax(large) {
+                  display: block;
+               }
+            }
+         }
+      }
+
+      .no-products {
+         height: 360px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         gap: 32px;
+         @include breakPointsMax(small) {
+            height: 300px;
+         }
+
+         img {
+            height: 140px;
+            @include breakPointsMax(small) {
+               height: 120px;
+            }
+         }
+      }
+   }
+   &__right {
+      position: sticky;
+      top: 96px;
+      height: 500px;
+      .priceDetails {
+         display: block;
+         box-shadow: 0 0 7px 0.1px rgba(0, 0, 0, 0.2);
+
+         @include breakPointsMax(large) {
+            display: none;
+         }
+      }
+   }
+}

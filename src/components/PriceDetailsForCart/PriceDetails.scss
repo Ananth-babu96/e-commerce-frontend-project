@@ -1,0 +1,43 @@
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+@use "../../scss/colors/colors.scss" as *;
+
+.price-details {
+   background: #fff;
+   padding: 18px;
+
+   @include breakPointsMax(xs) {
+      font-size: 14px;
+   }
+
+   div {
+      display: flex;
+      padding: 12px 0;
+      justify-content: space-between;
+      text-transform: capitalize;
+
+      @include breakPointsMax(xs) {
+         flex-direction: column;
+         align-items: center;
+      }
+
+      &.delivery-charge {
+         border-bottom: 1px solid $light-color;
+         p span {
+            text-decoration: line-through;
+         }
+      }
+      &.total-amount {
+         border-bottom: 1px solid $light-color;
+         font-weight: 700;
+      }
+      &.amount-saved {
+         color: $positive;
+         font-weight: 600;
+         text-transform: none;
+      }
+   }
+   .positive {
+      text-decoration: none !important;
+      color: $positive;
+   }
+}

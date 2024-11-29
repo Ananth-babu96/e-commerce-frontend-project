@@ -1,0 +1,29 @@
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+.category-section {
+   margin: 62px 0;
+   @include breakPointsMax(medium) {
+      margin: 20px 0;
+   }
+   .category-section__title {
+      text-align: center;
+   }
+   .category-section__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 300px);
+      justify-content: center;
+      gap: 28px;
+
+      @include breakPointsMax(large) {
+         padding: 60px 6%;
+      }
+      grid-template-columns: repeat(auto-fit, 255px);
+
+      @include breakPointsMax(small) {
+         padding: 60px 16px;
+      }
+      @include breakPointsMax(xs) {
+         padding: 20px 0;
+         grid-template-columns: repeat(1, 100%);
+      }
+   }
+}

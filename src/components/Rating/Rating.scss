@@ -1,0 +1,45 @@
+@use "../../scss/colors/colors.scss" as *;
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+
+.rating-box {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: #fff;
+   background: $positive;
+
+   flex-shrink: 0;
+   &.bad {
+      background: $negative;
+   }
+   &.average {
+      background: $neutral;
+   }
+   &.good {
+      background: $positive;
+   }
+   &.large {
+      height: 30px;
+      width: 60px;
+      border-radius: 30px;
+      font-size: 16px;
+      @include breakPointsMax(small) {
+         height: 26px;
+         width: 52px;
+         font-size: 14px;
+      }
+   }
+   &.medium {
+      height: 22px;
+      width: 44px;
+      border-radius: 22px;
+      font-size: 12px;
+   }
+
+   &.small {
+      height: 20px;
+      width: 40px;
+      border-radius: 18px;
+      font-size: 10px;
+   }
+}

@@ -138,8 +138,8 @@ import casual_shirt31 from "../components/assets/productImages/casual8-side2.web
 
 import casual_shirt33 from "../components/assets/productImages/casual9.webp";
 import casual_shirt34 from "../components/assets/productImages/casual9-side1.webp";
-import casual_shirt135 from "../components/assets/productImages/casual9-side2.webp";
-import casual_shirt136 from "../components/assets/productImages/casual9-side3.webp";
+import casual_shirt35 from "../components/assets/productImages/casual9-side2.webp";
+import casual_shirt36 from "../components/assets/productImages/casual9-side3.webp";
 
 import casual_shirt37 from "../components/assets/productImages/casual10.webp";
 import casual_shirt38 from "../components/assets/productImages/casual10-side1.webp";
@@ -178,6 +178,161 @@ import casual_shirt65 from "../components/assets/productImages/casual17.webp";
 import casual_shirt66 from "../components/assets/productImages/casual17-side1.webp";
 import casual_shirt67 from "../components/assets/productImages/casual17-side2.webp";
 import casual_shirt68 from "../components/assets/productImages/casual17-side3.webp";
+
+import casual_pant1 from "../components/assets/productImages/c-pant1.webp";
+import casual_pant2 from "../components/assets/productImages/c-pant1-side1.webp";
+import casual_pant3 from "../components/assets/productImages/c-pant1-side2.webp";
+import casual_pant4 from "../components/assets/productImages/c-pant1-side3.webp";
+
+import casual_pant5 from "../components/assets/productImages/c-pant2.webp";
+import casual_pant6 from "../components/assets/productImages/c-pant2-side1.webp";
+import casual_pant7 from "../components/assets/productImages/c-pant2-side2.webp";
+import casual_pant8 from "../components/assets/productImages/c-pant2-side3.webp";
+
+import casual_pant9 from "../components/assets/productImages/c-pant3.webp";
+import casual_pant10 from "../components/assets/productImages/c-pant3-side1.webp";
+import casual_pant11 from "../components/assets/productImages/c-pant3-side2.webp";
+import casual_pant12 from "../components/assets/productImages/c-pant3-side3.webp";
+
+import casual_pant13 from "../components/assets/productImages/c-pant4.webp";
+import casual_pant14 from "../components/assets/productImages/c-pant4-side1.webp";
+import casual_pant15 from "../components/assets/productImages/c-pant4-side2.webp";
+import casual_pant16 from "../components/assets/productImages/c-pant4-side3.webp";
+
+import casual_pant17 from "../components/assets/productImages/c-pant5.webp";
+import casual_pant18 from "../components/assets/productImages/c-pant5-side1.webp";
+import casual_pant19 from "../components/assets/productImages/c-pant5-side2.webp";
+import casual_pant20 from "../components/assets/productImages/c-pant5-side3.webp";
+
+import casual_pant21 from "../components/assets/productImages/c-pant6.webp";
+import casual_pant22 from "../components/assets/productImages/c-pant6-side1.webp";
+import casual_pant23 from "../components/assets/productImages/c-pant6-side2.webp";
+import casual_pant24 from "../components/assets/productImages/c-pant6-side3.webp";
+
+import casual_pant25 from "../components/assets/productImages/c-pant-7.webp";
+import casual_pant26 from "../components/assets/productImages/c-pant7-side1.webp";
+import casual_pant27 from "../components/assets/productImages/c-pant7-side2.webp";
+import casual_pant28 from "../components/assets/productImages/c-pant7-side3.webp";
+
+import casual_pant29 from "../components/assets/productImages/c-pant8.webp";
+import casual_pant30 from "../components/assets/productImages/c-pant8-side1.webp";
+import casual_pant31 from "../components/assets/productImages/c-pant8-side2.webp";
+import casual_pant32 from "../components/assets/productImages/c-pant8-side3.webp";
+
+import formal_pant1 from "../components/assets/productImages/f-pant1.webp";
+import formal_pant2 from "../components/assets/productImages/f-pant1-side1.webp";
+import formal_pant3 from "../components/assets/productImages/f-pant1-side2.webp";
+import formal_pant4 from "../components/assets/productImages/f-pant1-side3.webp";
+
+import formal_pant5 from "../components/assets/productImages/f-pant2.webp";
+import formal_pant6 from "../components/assets/productImages/f-pant2-side1.webp";
+import formal_pant7 from "../components/assets/productImages/f-pant2-side2.webp";
+import formal_pant8 from "../components/assets/productImages/f-pant2-side3.webp";
+
+import formal_pant9 from "../components/assets/productImages/f-pant3.webp";
+import formal_pant10 from "../components/assets/productImages/f-pant3-side1.webp";
+import formal_pant11 from "../components/assets/productImages/f-pant3-side2.webp";
+import formal_pant12 from "../components/assets/productImages/f-pant3-side3.webp";
+
+import formal_pant13 from "../components/assets/productImages/f-pant4.webp";
+import formal_pant14 from "../components/assets/productImages/f-pant4-side1.webp";
+import formal_pant15 from "../components/assets/productImages/f-pant4-side2.webp";
+import formal_pant16 from "../components/assets/productImages/f-pant4-side3.webp";
+
+import formal_pant17 from "../components/assets/productImages/f-pant5.webp";
+import formal_pant18 from "../components/assets/productImages/f-pant5-side1.webp";
+import formal_pant19 from "../components/assets/productImages/f-pant5-side2.webp";
+import formal_pant20 from "../components/assets/productImages/f-pant5-side3.webp";
+
+import formal_pant21 from "../components/assets/productImages/f-pant6.webp";
+import formal_pant22 from "../components/assets/productImages/f-pant6-side1.webp";
+import formal_pant23 from "../components/assets/productImages/f-pant6-side2.webp";
+import formal_pant24 from "../components/assets/productImages/f-pant6-side3.webp";
+
+import formal_pant25 from "../components/assets/productImages/f-pant7.webp";
+import formal_pant26 from "../components/assets/productImages/f-pant7-side1.webp";
+
+import formal_pant27 from "../components/assets/productImages/f-pant8.webp";
+import formal_pant28 from "../components/assets/productImages/f-pant8-side1.webp";
+import formal_pant29 from "../components/assets/productImages/f-pant8-side2.webp";
+import formal_pant30 from "../components/assets/productImages/f-pant8-side3.webp";
+
+import tshirt1 from "../components/assets/productImages/t-shirt1.webp";
+import tshirt2 from "../components/assets/productImages/t-shirt1-side1.webp";
+import tshirt3 from "../components/assets/productImages/t-shirt1-side2.webp";
+import tshirt4 from "../components/assets/productImages/t-shirt1-side3.webp";
+
+import tshirt5 from "../components/assets/productImages/t-shirt2.webp";
+import tshirt6 from "../components/assets/productImages/t-shirt2-side1.webp";
+import tshirt7 from "../components/assets/productImages/t-shirt2-side2.webp";
+import tshirt8 from "../components/assets/productImages/t-shirt2-side3.webp";
+
+import tshirt9 from "../components/assets/productImages/t-shirt3.webp";
+import tshirt10 from "../components/assets/productImages/t-shirt3-side1.webp";
+import tshirt11 from "../components/assets/productImages/t-shirt3-side2.webp";
+import tshirt12 from "../components/assets/productImages/t-shirt3-side3.webp";
+
+import tshirt13 from "../components/assets/productImages/t-shirt4.webp";
+import tshirt14 from "../components/assets/productImages/t-shirt4-side1.webp";
+import tshirt15 from "../components/assets/productImages/t-shirt4-side2.webp";
+import tshirt16 from "../components/assets/productImages/t-shirt4-side3.webp";
+
+import tshirt17 from "../components/assets/productImages/t-shirt5.webp";
+import tshirt18 from "../components/assets/productImages/t-shirt5-side1.webp";
+import tshirt19 from "../components/assets/productImages/t-shirt5-side2.webp";
+import tshirt20 from "../components/assets/productImages/t-shirt5-side3.webp";
+
+import tshirt21 from "../components/assets/productImages/t-shirt6.webp";
+import tshirt22 from "../components/assets/productImages/t-shirt6-side1.webp";
+import tshirt23 from "../components/assets/productImages/t-shirt6-side2.webp";
+import tshirt24 from "../components/assets/productImages/t-shirt6-side3.webp";
+
+import tshirt25 from "../components/assets/productImages/t-shirt7.webp";
+import tshirt26 from "../components/assets/productImages/t-shirt7-side1.webp";
+import tshirt27 from "../components/assets/productImages/t-shirt7-side2.webp";
+import tshirt28 from "../components/assets/productImages/t-shirt7-side3.webp";
+
+import tshirt29 from "../components/assets/productImages/t-shirt8.webp";
+import tshirt30 from "../components/assets/productImages/t-shirt8-side1.webp";
+import tshirt31 from "../components/assets/productImages/t-shirt8-side2.webp";
+import tshirt32 from "../components/assets/productImages/t-shirt8-side3.webp";
+
+import watch1 from "../components/assets/productImages/watch1.webp";
+import watch2 from "../components/assets/productImages/watch1-side1.webp";
+import watch3 from "../components/assets/productImages/watch1-side2.webp";
+import watch4 from "../components/assets/productImages/watch1-side3.webp";
+
+import watch5 from "../components/assets/productImages/watch3.webp";
+import watch6 from "../components/assets/productImages/watch3-side1.webp";
+import watch7 from "../components/assets/productImages/watch3-side2.webp";
+import watch8 from "../components/assets/productImages/watch3-side3.webp";
+
+import watch9 from "../components/assets/productImages/watch4.webp";
+import watch10 from "../components/assets/productImages/watch4-side1.webp";
+import watch11 from "../components/assets/productImages/watch4-side2.webp";
+import watch12 from "../components/assets/productImages/watch4-side3.webp";
+
+import watch13 from "../components/assets/productImages/watch5.webp";
+import watch14 from "../components/assets/productImages/watch5-side1.webp";
+import watch15 from "../components/assets/productImages/watch5-side2.webp";
+import watch16 from "../components/assets/productImages/watch5-side3.webp";
+
+import watch17 from "../components/assets/productImages/watch6.webp";
+import watch18 from "../components/assets/productImages/watch6-side1.webp";
+import watch19 from "../components/assets/productImages/watch6-side2.webp";
+import watch20 from "../components/assets/productImages/watch6-side3.webp";
+
+import watch21 from "../components/assets/productImages/watch7.webp";
+import watch22 from "../components/assets/productImages/watch7-side1.webp";
+import watch23 from "../components/assets/productImages/watch7-side2.webp";
+
+import watch24 from "../components/assets/productImages/watch8.webp";
+import watch25 from "../components/assets/productImages/watch8-side1.webp";
+import watch26 from "../components/assets/productImages/watch8-side2.webp";
+
+import watch27 from "../components/assets/productImages/watch9.webp";
+import watch28 from "../components/assets/productImages/watch9-side1.webp";
+import watch29 from "../components/assets/productImages/watch9-side2.webp";
 
 export const PRODUCTS = [
    {
@@ -264,8 +419,8 @@ export const PRODUCTS = [
          main: formal_shirt13,
          side: [formal_shirt14, formal_shirt15],
       },
-      oldPrice: "",
-      newPrice: "",
+      oldPrice: 1499,
+      newPrice: 699,
       off: 55,
       details: {
          PackOf: 1,
@@ -762,11 +917,11 @@ export const PRODUCTS = [
       name: "Men Slim Fit Striped Formal Shirt",
       images: {
          main: casual_shirt13,
-         side: [casual_shirt14, formal_shirt15],
+         side: [casual_shirt14, casual_shirt15, casual_shirt16],
       },
-      oldPrice: "",
-      newPrice: "",
-      off: 55,
+      oldPrice: "1200",
+      newPrice: "600",
+      off: 50,
       details: {
          PackOf: 1,
          Closure: "Button",
@@ -887,7 +1042,7 @@ export const PRODUCTS = [
       name: "Men Slim Fit Solid Spread Collar Formal Shirt",
       images: {
          main: casual_shirt33,
-         side: [casual_shirt34],
+         side: [casual_shirt34, casual_shirt35, casual_shirt36],
       },
       oldPrice: 1799,
       newPrice: 799,
@@ -1104,5 +1259,805 @@ export const PRODUCTS = [
          SuitableFor: "Western Wear",
       },
       ratings: "4.4",
+   },
+   {
+      id: 38,
+      category: "casual-pants",
+      brand: "Voroxy",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: casual_pant1,
+         side: [casual_pant2, casual_pant3, casual_pant4],
+      },
+      oldPrice: 2199,
+      newPrice: 299,
+      off: 89,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.1",
+   },
+   {
+      id: 39,
+      category: "casual-pants",
+      brand: "Stonberg",
+      name: "Men Slim Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: casual_pant5,
+         side: [casual_pant6, casual_pant7, casual_pant8],
+      },
+      oldPrice: 1599,
+      newPrice: 379,
+      off: 76,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Slim",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "Pink",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "3.9",
+   },
+   {
+      id: 40,
+      category: "casual-pants",
+      brand: "Davem",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: casual_pant9,
+         side: [casual_pant10, casual_pant11, casual_pant12],
+      },
+      oldPrice: 1399,
+      newPrice: 499,
+      off: 64,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 41,
+      category: "casual-pants",
+      brand: "Park Avenue",
+      name: "Men Slim Fit Striped Formal Shirt",
+      images: {
+         main: casual_pant13,
+         side: [casual_pant14, casual_pant15, casual_pant16],
+      },
+      oldPrice: "",
+      newPrice: "",
+      off: 55,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Striped",
+         Reversable: "No",
+         Color: "Blue",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.3",
+   },
+   {
+      id: 41,
+      category: "casual-pants",
+      brand: "Allens Solly",
+      name: "Men Slim Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: casual_pant17,
+         side: [casual_pant18, casual_pant19, casual_pant20],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Slim",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "Grey",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.0",
+   },
+   {
+      id: 42,
+      category: "casual-pants",
+      brand: "Jack & Jones",
+      name: "Men Slim Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: casual_pant21,
+         side: [casual_pant22, casual_pant23, casual_pant24],
+      },
+      oldPrice: 1999,
+      newPrice: 849,
+      off: 57,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Slim",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "Blue",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.1",
+   },
+   {
+      id: 43,
+      category: "casual-pants",
+      brand: "U.S. Polo Assn.",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: casual_pant25,
+         side: [casual_pant26, casual_pant27, casual_pant28],
+      },
+      oldPrice: 2299,
+      newPrice: 799,
+      off: 65,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.0",
+   },
+   {
+      id: 44,
+      category: "casual-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: casual_pant29,
+         side: [casual_pant30, casual_pant31, casual_pant32],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 45,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant1,
+         side: [formal_pant2, formal_pant3, formal_pant4],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 46,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant5,
+         side: [formal_pant6, formal_pant7, formal_pant8],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 47,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant9,
+         side: [formal_pant10, formal_pant11, formal_pant12],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 48,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant13,
+         side: [formal_pant14, formal_pant15, formal_pant16],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 49,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant17,
+         side: [formal_pant18, formal_pant19, formal_pant20],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 50,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant21,
+         side: [formal_pant22, formal_pant23, formal_pant24],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 51,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant25,
+         side: [formal_pant26],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 52,
+      category: "formal-pants",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: formal_pant27,
+         side: [formal_pant28, formal_pant29, formal_pant30],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 53,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch1,
+         side: [watch2, watch3, watch4],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 54,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch5,
+         side: [watch6, watch7, watch8],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 55,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch9,
+         side: [watch10, watch11, watch12],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 56,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch13,
+         side: [watch14, watch15, watch16],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 57,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch17,
+         side: [watch18, watch19, watch20],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 58,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch21,
+         side: [watch22, watch23, watch24],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 59,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch25,
+         side: [watch26],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 60,
+      category: "watches",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: watch27,
+         side: [watch28, watch29],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 61,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt1,
+         side: [tshirt2, tshirt3, tshirt4],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 62,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt5,
+         side: [tshirt6, tshirt7, tshirt8],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 63,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt9,
+         side: [tshirt10, tshirt11, tshirt12],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 64,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt10,
+         side: [tshirt11, tshirt12, tshirt13],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 65,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt14,
+         side: [tshirt15, tshirt16, tshirt17],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 66,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt18,
+         side: [tshirt19, tshirt20, tshirt21],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 67,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt22,
+         side: [tshirt23, tshirt24, tshirt25],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
+   },
+   {
+      id: 68,
+      category: "t-shirts",
+      brand: "Arrow",
+      name: "Men Regular Fit Solid Spread Collar Formal Shirt",
+      images: {
+         main: tshirt26,
+         side: [tshirt27, tshirt28, tshirt29],
+      },
+      oldPrice: 1499,
+      newPrice: 699,
+      off: 53,
+      details: {
+         PackOf: 1,
+         Closure: "Button",
+         Fit: "Regular",
+         Fabric: "Cotton Blend",
+         Sleeve: "Full Sleeve",
+         Pattern: "Solid",
+         Reversable: "No",
+         Color: "White",
+         SuitableFor: "Western Wear",
+      },
+      ratings: "4.2",
    },
 ];

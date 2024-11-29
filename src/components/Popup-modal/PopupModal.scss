@@ -1,0 +1,30 @@
+@use "../../scss/colors/colors.scss" as *;
+.popup-modal {
+   width: 80vw;
+   padding: 23px 0;
+   background: $light-color;
+   box-shadow: 0 0 7px 0.1px rgba(0, 0, 0, 0.2);
+   text-align: center;
+   position: fixed;
+   bottom: 80px;
+   left: 50%;
+   transform: translateX(-50%);
+   opacity: 1;
+   z-index: 100;
+   &.show {
+      animation: pop 2s ease;
+   }
+}
+
+@keyframes pop {
+   0%,
+   100% {
+      bottom: -80px;
+      opacity: 0;
+   }
+   20%,
+   70% {
+      bottom: 80px;
+      opacity: 1;
+   }
+}

@@ -4,7 +4,8 @@ import {
    IoIosArrowDropleftCircle,
    IoIosArrowDroprightCircle,
 } from "react-icons/io";
-import { FaHandPointRight } from "react-icons/fa";
+import ShowcaseItem from "../ShowcaseItem/ShowcaseItem";
+import Button from "../Button/Button";
 const ProductsDisplay = ({ showcaseItem }) => {
    const slider = useRef(null);
 
@@ -36,22 +37,19 @@ const ProductsDisplay = ({ showcaseItem }) => {
          <div className="products-display" ref={slider}>
             <div className="products-display__cards">
                {showcaseItem.map((product, index) => {
-                  return (
-                     <div key={index} className="products-display__card">
-                        <div className="card__image">
-                           <img src={product.images.main} alt="" />
-                        </div>
-                        <div className="card__text">
-                           <p>{product.brand}</p>
-                           <p className="off">{product.off}% off</p>
-                        </div>
-                     </div>
-                  );
+                  return <ShowcaseItem product={product} key={index} />;
                })}
             </div>
          </div>
          <div className="products-display__btn">
-            <button>see more</button>
+            <Button
+               text="Explore"
+               size="large"
+               disableCondition={false}
+               clickFunction={() => console.log("hello")}
+               isLink={true}
+               linkTo={`/${showcaseItem[0].category}`}
+            />
          </div>
       </div>
    );

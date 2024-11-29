@@ -1,0 +1,350 @@
+@use "../../scss/colors/colors.scss" as *;
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+
+.product {
+   padding: 16px;
+   position: relative;
+
+   .product__details {
+      position: relative;
+      .details__top {
+         display: grid;
+         grid-template-columns: repeat(2, 48%);
+         height: fit-content;
+         position: relative;
+         background: #fff;
+         @include breakPointsMax(large) {
+            grid-template-columns: repeat(1, 100%);
+            background: none;
+         }
+         .product-images {
+            display: flex;
+            flex: 1;
+            position: sticky;
+            top: 120px;
+            height: 100vh;
+            @include breakPointsMax(large) {
+               position: static;
+               height: auto;
+            }
+
+            @include breakPointsMax(large) {
+               align-items: center;
+               flex-direction: column;
+            }
+
+            .side-images {
+               margin-right: 16px;
+
+               @include breakPointsMax(large) {
+                  display: none;
+               }
+               .side-image {
+                  height: 100px;
+                  width: 70px;
+                  margin-bottom: 16px;
+
+                  @include breakPointsMax(large) {
+                     height: 80px;
+                     width: 55px;
+                  }
+
+                  &.current-image {
+                     border: 2px solid $secondary_color;
+                  }
+                  img {
+                     height: 100%;
+                     width: 100%;
+                     object-fit: cover;
+                     cursor: pointer;
+                  }
+               }
+            }
+            .main-image {
+               flex-shrink: 0;
+               width: 450px;
+               max-height: 620px;
+               overflow: hidden;
+               position: relative;
+
+               @include breakPointsMin(xxl) {
+                  width: 450px;
+               }
+               @include breakPointsMax(xl) {
+                  width: 32vw;
+               }
+               @include breakPointsMax(large) {
+                  width: 70%;
+               }
+
+               @include breakPointsMax(medium) {
+                  width: 80%;
+               }
+               @include breakPointsMax(small) {
+                  width: 100%;
+               }
+               .btn {
+                  position: absolute;
+                  z-index: 2;
+                  height: 50px;
+                  width: 30px;
+                  background: #717171b3;
+                  color: #fff;
+                  font-size: 28px;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  cursor: pointer;
+
+                  display: none;
+
+                  @include breakPointsMax(large) {
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                  }
+
+                  &.next-btn {
+                     right: 0;
+                  }
+                  &.prev-btn {
+                     left: 0;
+                  }
+               }
+               .image-slider {
+                  display: flex;
+                  height: 100%;
+
+                  @include breakPointsMax(large) {
+                     transition: transform 0.3s ease;
+                  }
+                  @for $i from 0 through 3 {
+                     &.image_#{$i} {
+                        transform: translateX(#{-$i * 450}px);
+
+                        @include breakPointsMax(xl) {
+                           transform: translateX(#{-$i * 32vw});
+                        }
+                        @include breakPointsMax(large) {
+                           transform: translateX(#{-$i * 100%});
+                        }
+                        @include breakPointsMax(medium) {
+                           transform: translateX(#{-$i * 100%});
+                        }
+                     }
+                  }
+                  img {
+                     flex-shrink: 0;
+                     height: 100%;
+                     width: 100%;
+                     object-fit: cover;
+                  }
+               }
+            }
+            &__indicators {
+               display: none;
+               gap: 5px;
+               margin: 16px 0;
+               @include breakPointsMax(large) {
+                  display: flex;
+               }
+               .indicator {
+                  height: 5px;
+                  width: 5px;
+                  border-radius: 50%;
+                  background: #717171b3;
+
+                  &.current-indicator {
+                     background: $primary_color;
+                  }
+               }
+            }
+         }
+         .product-info {
+            padding: 16px 0;
+
+            &__price {
+               margin-bottom: 16px;
+               color: $darkGrey;
+               font-size: 28px;
+               font-weight: bold;
+               color: #000;
+               @include breakPointsMax(large) {
+               }
+               .old-price {
+                  text-decoration: line-through;
+                  margin-right: 4px;
+                  font-size: 16px;
+                  font-weight: normal;
+                  color: $darkGrey;
+               }
+               .off {
+                  color: $positive;
+                  font-weight: bold;
+                  margin-left: 4px;
+                  font-size: 16px;
+               }
+            }
+
+            &__sizes {
+               margin: 58px 0 32px;
+               display: flex;
+               gap: 16px;
+               position: relative;
+               @include breakPointsMax(large) {
+                  gap: 10px;
+               }
+               @include breakPointsMax(small) {
+                  gap: 6px;
+                  margin: 42px 0;
+               }
+               @include breakPointsMax(xs) {
+                  flex-direction: column;
+               }
+
+               .title {
+                  position: absolute;
+                  top: -26px;
+                  left: 0;
+               }
+
+               .size {
+                  flex-shrink: 0;
+                  height: 32px;
+                  width: 64px;
+                  border: 1px solid $secondary_color;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: $darkGrey;
+                  text-transform: uppercase;
+                  letter-spacing: 4px;
+                  cursor: pointer;
+                  @include breakPointsMax(large) {
+                     height: 28px;
+                     width: 56px;
+                  }
+                  @include breakPointsMax(small) {
+                     height: 22px;
+                     width: 40px;
+                     font-size: 12px;
+                     letter-spacing: 2px;
+                  }
+
+                  &.selected-size,
+                  &:hover {
+                     background: $secondary_color;
+                     color: #fff;
+                  }
+               }
+            }
+            &__quantity {
+               position: relative;
+               width: 55px;
+
+               .quantity {
+                  height: 32px;
+                  width: 100%;
+                  border: 1px solid $darkGrey;
+                  text-align: center;
+                  font-size: 14px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  cursor: pointer;
+               }
+               .quantity-options {
+                  position: absolute;
+                  background: #fff;
+                  width: 100%;
+                  border: 1px solid $mediumGrey;
+                  height: 300px;
+                  overflow: scroll;
+                  scrollbar-width: thin;
+                  overflow-x: hidden;
+                  z-index: 9;
+                  display: none;
+                  &.show {
+                     display: block;
+                  }
+
+                  ul {
+                     display: flex;
+                     flex-direction: column;
+                     align-items: center;
+                     justify-content: center;
+                     padding: 0;
+                     li {
+                        background: none;
+                        text-align: center;
+                        width: 55px;
+                        margin-bottom: 4px;
+
+                        &:hover {
+                           background: $light-color;
+                        }
+                     }
+                  }
+               }
+            }
+            .buttons {
+               margin-top: 32px;
+               display: flex;
+               flex-direction: column;
+               gap: 16px;
+
+               button {
+                  width: 50%;
+                  height: 38px;
+                  background: transparent;
+                  border: 1px solid $secondary_color;
+                  cursor: pointer;
+
+                  @include breakPointsMax(small) {
+                     width: 180px;
+                  }
+                  @include breakPointsMax(xs) {
+                     width: 100%;
+                     height: auto;
+                     padding: 10px 0;
+                  }
+               }
+               .buttons__bag {
+                  background: $secondary_color;
+                  color: #fff;
+               }
+            }
+            &__product-details {
+               margin: 46px 0;
+               padding-right: 16px;
+               .product-details-title {
+                  display: flex;
+                  padding: 16px 0;
+                  justify-content: space-between;
+                  align-items: center;
+
+                  span {
+                     font-size: 22px;
+                     height: 40px;
+                     width: 40px;
+                  }
+               }
+               table {
+                  display: flex;
+                  height: 0;
+                  overflow: hidden;
+                  transition: height 0.2s ease;
+
+                  &.show-details {
+                     height: 380px;
+                  }
+
+                  td {
+                     width: 200px;
+                     height: 40px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

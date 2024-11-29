@@ -1,37 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 
-import logo from "../../images/elite-men-logo.png";
-
+import logo from "../../images/elite-men-logo-white.png";
+import MobileSearchBar from "../MobileSearchBar/MobileSearchBar";
 import { FaRegHeart, FaShoppingBag } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 const Navbar = () => {
+   const [openSearchBar, setOpenSearchBar] = useState(false);
+   const openMobileSearchBar = () => {
+      setOpenSearchBar(!openSearchBar);
+   };
    return (
-      <div className="navbar">
+      <section className="navbar">
+         {openSearchBar ? (
+            <MobileSearchBar openMobileSearchBar={openMobileSearchBar} />
+         ) : (
+            <></>
+         )}
          <div className="navbar__logo">
-            <img src={logo} alt="" />
+            <Link to="/">
+               <img src={logo} alt="" />
+            </Link>
          </div>
-         <form className="navbar__search-bar">
+
+         <form className="navbar__form">
             <input
                type="search"
                name=""
                id=""
-               placeholder="whats in your mind today..."
+               placeholder="What's on your mind today"
             />
-            <span>
+            <button type="submit">
                <IoSearch />
-            </span>
+            </button>
          </form>
-         <div className="navbar__cart">
-            <Link to="/wishlist">
+         <div className="navbar__menu">
+            <div className="icon search-icon" onClick={openMobileSearchBar}>
+               <IoSearch />
+            </div>
+            <div className=" icon cart-icon">
+               <Link to="/cart">
+                  <FaShoppingBag />
+               </Link>
+            </div>
+            <div className=" icon heart-icon">
                <FaRegHeart />
-            </Link>
-            <Link to="/cart">
-               <FaShoppingBag />
-            </Link>
+            </div>
          </div>
-      </div>
+      </section>
    );
 };
 

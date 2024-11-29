@@ -1,0 +1,24 @@
+@use "../../scss/colors/colors.scss" as *;
+.btn {
+   margin: 16px 0;
+   border: 1px solid $secondary_color;
+   background: $primary_color;
+   color: #fff;
+   letter-spacing: 4px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   &:hover {
+      background: $primary_color;
+      color: #fff;
+   }
+   &.small {
+      height: 22px;
+      padding: 0 14px;
+      font-size: 12px;
+   }
+   &.large {
+      height: 42 px;
+      padding: 0 14px;
+   }
+}

@@ -1,0 +1,105 @@
+@use "../../scss/colors/colors.scss" as *;
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+.reviews-section {
+   position: relative;
+   &__title {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+      margin: 46px 0;
+      padding: 0 16px;
+
+      @include breakPointsMax(small) {
+         grid-template-columns: repeat(2, auto);
+      }
+
+      p {
+         display: flex;
+         align-items: center;
+         @include breakPointsMax(small) {
+            font-size: 14px;
+            grid-column: 1/3;
+            grid-row: 2/3;
+         }
+         span {
+            margin-left: 12px;
+         }
+      }
+
+      button {
+         background: #fff;
+         outline: none;
+         border: 1px solid $secondary_color;
+         padding: 6px 8px;
+         cursor: pointer;
+
+         &:hover {
+            background: $light_color;
+         }
+      }
+   }
+
+   &__reviews {
+      .review {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 28px;
+         padding-bottom: 18px;
+         border-bottom: 1px solid $mediumGrey;
+         @include breakPointsMax(small) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+         }
+
+         .review-left {
+            font-size: 14px;
+            line-height: 28px;
+            flex: 1;
+            &-top {
+               display: flex;
+               align-items: center;
+               gap: 12px;
+               margin-bottom: 18px;
+
+               .review-text {
+                  text-transform: capitalize;
+                  color: #000;
+                  font-size: 16px;
+               }
+            }
+            &-bottom {
+               .customer-name {
+                  color: $darkGrey;
+                  font-weight: bold;
+
+                  span {
+                     font-weight: normal;
+                     margin: 0 18px;
+                  }
+               }
+               .customer-location {
+                  color: $darkGrey;
+               }
+            }
+         }
+         .review-right {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+            height: 44px;
+            font-size: 14px;
+            color: $darkGrey;
+
+            div {
+               cursor: pointer;
+            }
+         }
+      }
+   }
+}

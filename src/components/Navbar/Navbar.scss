@@ -1,67 +1,62 @@
-@use "../../scss/breakPoints/breakPoints.scss" as *;
 @use "../../scss/colors/colors.scss" as *;
+@use "../../scss/breakPoints/breakPoints.scss" as *;
 .navbar {
-   background: $lightGrey;
-   width: 100%;
-   padding: 15px 25px;
-   display: grid;
-   grid-template-columns: repeat(3, auto);
-   align-items: center;
-   row-gap: 12px;
    position: fixed;
    top: 0;
-   z-index: 9;
-
-   @include breakPointsMax(medium) {
-      grid-template-columns: repeat(2, auto);
+   left: 0;
+   width: 100%;
+   height: 80px;
+   padding: 12px 22px;
+   background: $primary_color;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 99;
+   @include breakPointsMax(xs) {
+      flex-direction: column;
    }
 
    &__logo {
       img {
-         height: 80px;
-         @include breakPointsMax(medium) {
-            height: 50px;
+         height: 55px;
+         @include breakPointsMax(small) {
+            height: 45px;
          }
       }
    }
-   &__search-bar {
-      justify-self: center;
-      position: relative;
 
+   &__form {
+      width: 60%;
       @include breakPointsMax(medium) {
-         grid-row: 2/3;
-         grid-column: 1/3;
-         justify-self: auto;
+         display: none;
       }
-
       input {
-         width: 400px;
-         height: 40px;
-         border-radius: 12px;
+         width: 90%;
+         height: 42px;
          border: none;
          outline: none;
-         padding-left: 12px;
-         padding-right: 32px;
-
-         @include breakPointsMax(medium) {
-            width: 100%;
-         }
+         padding: 0 16px;
       }
-      span {
-         position: absolute;
-         right: 12px;
-         top: 10px;
-         color: grey;
+      button {
+         width: 10%;
+         height: 42px;
+         border: none;
+         outline: none;
+         background: $secondary_color;
       }
    }
-   &__cart {
-      justify-self: flex-end;
+   &__menu {
       display: flex;
-      gap: 8px;
-
-      a {
-         color: #000;
-         font-size: 1.2rem;
+      gap: 16px;
+      .icon {
+         color: #fff;
+         font-size: 18px;
+      }
+      .search-icon {
+         display: none;
+         @include breakPointsMax(medium) {
+            display: block;
+         }
       }
    }
 }

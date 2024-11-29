@@ -2,13 +2,21 @@
 @use "../../scss/colors/colors.scss" as *;
 
 .wrapper {
-   padding: 0 16px;
+   padding: 16px;
    position: relative;
    margin-bottom: 100px;
+   background: #fff;
+   width: 80vw;
+   margin: auto;
+   margin-bottom: 42px;
+   @include breakPointsMax(medium) {
+      margin-bottom: 60px;
+      width: 100vw;
+   }
 
    .products-display__title {
-      margin: 16px 0;
-      text-align: center;
+      margin: 16px;
+      text-align: left;
       @include breakPointsMax(small) {
          font-size: 14px;
       }
@@ -16,14 +24,17 @@
    .left-right-arrows {
       position: absolute;
       top: 50%;
+      transform: translateY(-50%);
       display: flex;
       font-size: 32px;
+      color: $primary_color;
+      z-index: 2;
+
       cursor: pointer;
       &.right-icon {
          right: 16px;
       }
    }
-   width: 100vw;
    .products-display {
       overflow: scroll;
       scrollbar-width: none;
@@ -32,78 +43,23 @@
          display: grid;
          justify-content: center;
          grid-template-columns: repeat(6, 260px);
-         grid-auto-rows: 365px;
-         gap: 16px;
+         gap: 0;
 
          @include breakPointsMax(xxl) {
             justify-content: start;
          }
          @include breakPointsMax(medium) {
             grid-template-columns: repeat(6, 200px);
-            grid-auto-rows: 281px;
             gap: 8px;
          }
          @include breakPointsMax(small) {
-            grid-template-columns: repeat(6, 135px);
-            grid-auto-rows: 220px;
-         }
-
-         .products-display__card {
-            height: 100%;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            border: 1px solid $lightGrey;
-            cursor: pointer;
-
-            &:hover {
-               border-color: $darkGrey;
-            }
-
-            .card__image {
-               height: 70%;
-               width: 80%;
-               background: grey;
-               @include breakPointsMax(small) {
-                  width: 100%;
-                  height: 80%;
-               }
-               img {
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-               }
-            }
-            .card__text {
-               text-align: center;
-               .off {
-                  color: rgb(17, 192, 17);
-               }
-            }
+            grid-template-columns: repeat(6, 185px);
          }
       }
    }
    .products-display__btn {
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       margin: 32px 0;
-
-      button {
-         height: 32px;
-         width: 96px;
-         background: transparent;
-         outline: none;
-         border: 1px solid #000;
-         text-transform: uppercase;
-         cursor: pointer;
-         font-weight: bold;
-
-         &:hover {
-            background-color: #000;
-            color: #fff;
-         }
-      }
    }
 }

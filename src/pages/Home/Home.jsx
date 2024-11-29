@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useReducer } from "react";
 import Category from "../../components/Category/Category";
 import ShowcaseWrapper from "../../components/ShowcaseWrapper/ShowcaseWrapper.jsx";
 

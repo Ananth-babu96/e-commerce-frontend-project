@@ -1,0 +1,103 @@
+@use "../../scss/breakPoints/breakPoints.scss" as *;
+@use "../../scss/colors/colors.scss" as *;
+.products-display__card {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-between;
+   //border: 1px solid $light_color;
+   border-radius: 8px;
+   padding: 16px;
+
+   @include breakPointsMax(small) {
+      padding: 8px;
+   }
+
+   &:hover {
+      //border-color: $secondary_color;
+      background: $light_color;
+   }
+
+   .card__image {
+      height: 300px;
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+
+      @include breakPointsMax(medium) {
+      }
+      @include breakPointsMax(small) {
+      }
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         transition: transform 0.3s ease;
+      }
+   }
+   .card__text {
+      p {
+         margin: 4px 0;
+      }
+      .brand {
+         font-weight: bold;
+         color: $primary_color;
+      }
+      .product-name {
+         color: $darkGrey;
+         width: 50%;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+
+         @include breakPointsMax(medium) {
+            width: 160px;
+         }
+         @include breakPointsMax(small) {
+            width: 100px;
+            font-size: 14px;
+         }
+      }
+      .price {
+         @include breakPointsMax(small) {
+            font-size: 12px;
+         }
+         span {
+            &:nth-of-type(1) {
+               margin-right: 8px;
+               @include breakPointsMax(small) {
+                  margin-right: 4px;
+               }
+            }
+            &:nth-of-type(2) {
+               margin-left: 8px;
+               font-size: 14px;
+               @include breakPointsMax(small) {
+                  margin-left: 4px;
+               }
+            }
+         }
+      }
+      .off {
+         color: $positive;
+         font-size: 14px;
+      }
+      .old-price {
+         color: $darkGrey;
+         text-decoration: line-through;
+      }
+   }
+   &:hover {
+      .card__image {
+         img {
+            transform: scale(1.2);
+         }
+      }
+      .rating {
+         transform: scale(1.2);
+      }
+   }
+}

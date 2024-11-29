@@ -1,0 +1,78 @@
+@use "./scss/colors/colors.scss" as *;
+@use "./scss/breakPoints/breakPoints.scss" as *;
+body {
+   margin: 0;
+
+   font-family: "raleway", sans-serif;
+   font-feature-settings: "lnum" 1;
+   font-size: 16px;
+   background: rgba(213, 213, 213, 0.3);
+
+   overflow-x: hidden;
+}
+body::before {
+   content: "";
+   height: 80px;
+   display: block;
+}
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+   -webkit-tap-highlight-color: transparent;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+a {
+   all: unset;
+   font-family: "raleway";
+   cursor: pointer;
+}
+
+h1 {
+   color: $primary_color;
+   font-size: 32px;
+   margin-bottom: 16px;
+   @include breakPointsMax(medium) {
+      font-size: 26px;
+      margin-bottom: 12px;
+   }
+   @include breakPointsMax(small) {
+      font-size: 24px;
+      margin-bottom: 12px;
+   }
+}
+h2 {
+   color: $primary_color;
+   font-size: 22px;
+   margin-bottom: 16px;
+   @include breakPointsMax(medium) {
+      font-size: 20px;
+      margin-bottom: 12px;
+   }
+   @include breakPointsMax(small) {
+      font-size: 18px;
+      margin-bottom: 12px;
+   }
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+   display: none;
+}
+
+input,
+textarea,
+button {
+   font-family: "raleway";
+}
+ul {
+   list-style: none;
+}
